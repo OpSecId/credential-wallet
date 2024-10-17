@@ -1,8 +1,8 @@
 name: Android
 
 on:
-  push:
-    branches: [main]
+  release:
+    branches: [build]
   pull_request:
 
   # Allows you to run this workflow manually from the Actions tab
